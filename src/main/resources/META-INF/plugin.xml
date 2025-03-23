@@ -1,0 +1,56 @@
+<idea-plugin>
+    <id>com.mle98.idea-harpoon</id>
+    <name>IdeaHarpoon</name>
+    <vendor email="matthias.lerch@protonmail.com" url="https://github.com/mle98/idea-harpoon">Matthias Lerch</vendor>
+
+    <description>A minimalistic port of ThePrimeagen's Harpoon neovim plugin for IntelliJ.</description>
+    <change-notes>Initial commit.</change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+    <actions>
+
+        <action id="OpenFile1" class="org.mle98.actions.OpenFile1Action" popup="true"
+                text="Open Harpoon File 1"
+                description="Show harpoon current jump list">
+            <add-to-group group-id="ToolsMenu"/>
+        </action>
+        <action id="OpenFile2" class="org.mle98.actions.OpenFile2Action" popup="true"
+                text="Open Harpoon File 2"
+                description="Show harpoon current jump list">
+            <add-to-group group-id="ToolsMenu"/>
+        </action>
+        <action id="OpenFile3" class="org.mle98.actions.OpenFile3Action" popup="true"
+                text="Open Harpoon File 3"
+                description="Show harpoon current jump list">
+            <add-to-group group-id="ToolsMenu"/>
+        </action>
+        <action id="OpenFile4" class="org.mle98.actions.OpenFile4Action" popup="true"
+                text="Open Harpoon File 4"
+                description="Show harpoon current jump list">
+            <add-to-group group-id="ToolsMenu"/>
+        </action>
+
+
+        <action id="SetFile1" class="org.mle98.actions.SetFile1Action" popup="true"
+                text="Set Harpoon File 1"
+                description="Show harpoon current jump list">
+            <add-to-group group-id="ToolsMenu"/>
+        </action>
+        <action id="SetFile2" class="org.mle98.actions.SetFile2Action" popup="true"
+                text="Set Harpoon File 2"
+                description="Show harpoon current jump list">
+            <add-to-group group-id="ToolsMenu"/>
+        </action>
+        <action id="SetFile3" class="org.mle98.actions.SetFile3Action" popup="true"
+                text="Set Harpoon File 3"
+                description="Show harpoon current jump list">
+            <add-to-group group-id="ToolsMenu"/>
+        </action>
+        <action id="SetFile4" class="org.mle98.actions.SetFile4Action" popup="true"
+                text="Set Harpoon File 4"
+                description="Show harpoon current jump list">
+            <add-to-group group-id="ToolsMenu"/>
+        </action>
+
+    </actions>
+</idea-plugin>
